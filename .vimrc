@@ -1,7 +1,7 @@
 set nocp
 set tabstop=4 "number of visual spaces per TAB
 set softtabstop=4 "number of spaces in tab when editing
-
+set laststatus=2 
 "UI Config
 set number "show line numbers
 set showcmd "show command in bottom bar
@@ -14,7 +14,6 @@ set incsearch "search as characters are entered
 nnoremap j gj
 nnoremap k gk
 
-filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
 " when indenting with '>', use 4 spaces width
